@@ -15,7 +15,7 @@ WriteMakefile(
     'clean' => {FILES => "*% *.bak *.old Pod/*% t/html/*"},
     'linkext' => { LINKTYPE => ''},
     'dist'     => { COMPRESS => 'gzip -f9', SUFFIX => '.gz' },
-    'VERSION_FROM' => 'Pod/HTML_Elements.pm',
+    'VERSION_FROM' => 'lib/Pod/HTML_Elements.pm',
  	'AUTHOR'       => 'Nick Ing-Simmons (maintained by brian d foy <bdfoy@cpan.org>)',
  	'LICENSE'      => 'perl',
  

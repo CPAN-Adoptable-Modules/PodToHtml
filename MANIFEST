@@ -4,8 +4,8 @@ LICENSE
 Makefile.PL
 MANIFEST
 MANIFEST.SKIP
-Pod/HTML_Elements.pm
-Pod/Links.pm
+lib/Pod/HTML_Elements.pm
+lib/Pod/Links.pm
 podtohtml
 README
 t/pod.t
@@ -14,3 +14,4 @@ t/postscript.t
 t/script.t
 t/testpod.htm
 t/testpod.pod
+examples/placeholder.pl
