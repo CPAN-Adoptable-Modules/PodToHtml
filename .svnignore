@@ -1,0 +1,7 @@
+PodToHTML-*
+*.gz
+Makefile
+*.old
+pm_to_blib
+blib
+t/html
