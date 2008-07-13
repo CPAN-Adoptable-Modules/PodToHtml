@@ -10,11 +10,13 @@ If you aren't already using this module, don't start.
 HERE
 
 WriteMakefile(
-    'NAME'     => 'PodToHTML',
-    'EXE_FILES' => [qw(podtohtml)],
-    'clean' => {FILES => "*% *.bak *.old Pod/*% t/html/*"},
-    'linkext' => { LINKTYPE => ''},
-    'dist'     => { COMPRESS => 'gzip -f9', SUFFIX => '.gz' },
+    'NAME'         => 'PodToHTML',
+	'ABSTRACT'     => 'Deprecated module to translate PodToHTML';
+
+    'EXE_FILES'    => [qw(podtohtml)],
+    'clean'        => {FILES => "*% *.bak *.old Pod/*% t/html/*"},
+    'linkext'      => { LINKTYPE => ''},
+    'dist'         => { COMPRESS => 'gzip -f9', SUFFIX => '.gz' },
     'VERSION_FROM' => 'lib/Pod/HTML_Elements.pm',
  	'AUTHOR'       => 'Nick Ing-Simmons (maintained by brian d foy <bdfoy@cpan.org>)',
  	'LICENSE'      => 'perl',
